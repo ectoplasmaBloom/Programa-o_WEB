@@ -1,0 +1,84 @@
+h1, .lordes {
+    text-align: center; /*Posição do texto: centralizada*/
+    
+
+
+}
+
+.nomes {
+    font-size: 20px; /*Tamanho da fonte*/
+    font-weight: bold; /* Fonte negritada*/
+}
+
+.lordes-das-cinzas {
+    max-width: 300px; /* Tamanho maximo que a imagem pode ocupar independente do tamanho de tela */
+    max-height: 300px;
+    width: 24.5vw; /* Tamanho da imagem de acordo com o tamanho de tela */
+    height: 24.5vw;
+    cursor: pointer; /* Cursor vira um pointer ao passar por cima do item com essa classe/ID */
+}
+
+.link_personagens {
+    color:#e69d15;
+    text-decoration:none; /* O texto não vai ter decorações como sublinhamento */
+}
+
+.personagens {
+    column-count: 2; /* O numero de colunas que terão na div*/
+    column-gap: 28px; /* a distancia entre as colunas */
+    margin-bottom: 30px; 
+    border-right: 1px solid black;
+}
+
+.alfabeto {
+    border-bottom: 1px solid black;
+    break-inside: avoid;
+    font-size: 23px;
+    font-weight: 500; /* Fonte negritada só q diferente */
+    margin: 0;
+    padding: 10px 0 3px;
+    font-weight: bold; 
+
+}
+.imagens_perso {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    width: 40px;
+    
+}
+.imagens_perso_link {
+    
+    word-break: break-word;
+    color:#e69d15;
+    text-decoration:none;
+    font-size: 20px;
+}
+.img_wiki{
+    border: 1px solid black; /* borda, tamanho, forma na qual a cor sera utilizada e cor */
+    border-radius: 5px; /* raio da borda(pra deixar redondinho) */
+    box-sizing: border-box;
+    height: 30px;
+    width: 40px;
+}
+ul {
+    list-style-type: none; /* Faz com que a lista não tenha bolinha */
+}
+.info {
+    width: 300px;
+    background-color: transparent;
+    margin: 0 0 1.5em 0.5em;
+    float: right; /* Imagem é jogada a direita da pagina */
+    clear: right;
+    color: #c97b14;
+    font-size: 88%;
+}
+.info_img {
+    max-width: 300px; /* Tamanho maximo que a imagem pode ocupar independente do tamanho de tela */
+    max-height: 400px;
+    width: 24.5vw; /* Tamanho da imagem de acordo com o tamanho de tela */
+    height: 24.5vw;
+    cursor: pointer; /* Muda o cursos ao passar por cima do item com a ID/Classe*/
+}
+
+
