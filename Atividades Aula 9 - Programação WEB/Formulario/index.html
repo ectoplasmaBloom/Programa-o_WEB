@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width, initial=scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="form-container">
+        <form id="meu formulario">
+        <div class="form-grid">
+            <div class="form-field">
+                <label for="nome-proprio">Nome próprio</label>
+                <input type="text" id="nome-proprio" name="nomeProprio">
+                <span id="error-nome" class="error-message">(Campo Obrigatório)</span>
+            </div>
+            <div class="form-field">
+                <label for="apelido">Apelido</label>
+                <input type="text" id="apelido" name="apelido">
+            </div>
+            <div class="form-field">
+                <label for="nome-usuario">Nome de Usuário</label>
+                <div class="input-group">
+                    <span class="input-group-text">@</span>
+                    <input type="text" id="nome-usuario" name="nomeUsuario">
+                </div>
+            </div>
+            <div class="form-field">
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" name="cidade">
+            </div>
+            <div class="form-field">
+                <label for="estado">Estado</label>
+                <select id="estado" name="estado">
+                    <option value="">Escolher...</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PR">Paraná</option>
+                </select>
+            </div>
+            <div class="form-field">
+                <label for="nada">Nada</label>
+                <input type="text" id="nada" name="nada">
+            </div>
+        </div>
+        <div class="checkbox-field">
+            <input type="checkbox" id="termos" name="termos">
+            <label for="termos"> Concordo com os termos e condições</label>
+            <span id="error-termos" class="error-message">Você deve concordar com os termos e condições</span>
+        </div>
+        <button type="submit" class="btn-submit">Enviar formulário</button>
+        </form>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>

@@ -1,0 +1,24 @@
+const biblioteca = [
+    {
+        "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+        "autor": ["J.R.R. Tolkien"],
+        "edicao": 1,
+        "ano_publicacao": 1954,
+        "editora": "Allen & Unwin",
+        "local_publicacao": "Londres",
+        "classificacao": "Fantasia Épica",
+        "codigo": "FANT001",
+        "assunto": "Jornada, Magia, Amizade, Batalha"
+    },
+    {
+        "titulo": "Dom Casmurro",
+        "autor": ["Machado de Assis"],
+        "edicao": 1,
+        "ano_publicacao": 1899,
+        "editora": "Garnier",
+        "local_publicacao": "Rio de Janeiro",
+        "classificacao": "Romance Brasileiro",
+        "codigo": "ROM003",
+        "assunto": "Ciúmes, Memória, Ambiguidade, Sociedade"
+    }
+]

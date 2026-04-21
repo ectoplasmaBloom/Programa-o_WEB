@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF 8">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0"> 
+    <title>Catálogo da Biblioteca</title>
+    <style>
+        body { font-family: Arial, Helvetica, sans-serif; margin: 20px;}
+        table { width: 100%; border-collapse: collapse; margin-top: 20px;}
+        th, td {border: 1px solid #dddd; padding: 8px; text-align: left;}
+        th { background-color: #f2f2f2;}
+    </style>
+</head>
+<body>
+    <h1>Catálogo de Livros da Biblioteca</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Titulo</th>
+                <th>Autor(es)</th>
+                <th>Edição</th>
+                <th>Ano</th>
+                <th>Editora</th>
+                <th>Local</th>
+                <th>Classificação</th>
+                <th>Código</th>
+                <th>Assunto</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaLivrosBody">
+        </tbody>
+    </table>
+    <script src="livros.json"></script>
+    <script src="script.js"></script>
+</body>
+</html>
