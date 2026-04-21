@@ -1,0 +1,48 @@
+.background {
+    max-width: 1250px;
+    margin:auto;
+    background-color: rgb(252, 151, 255);
+
+}
+
+a:link {
+    color: rgb(255, 0, 0);
+}
+
+a:visited {
+    color:rgb(0, 255, 21)
+    
+}
+
+h1 {
+    color: aliceblue;
+}
+
+body {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    background-color: black;
+}
+
+
+
+.malphite {
+    animation: float 2s infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translate(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translate(0px);
+	}
+}

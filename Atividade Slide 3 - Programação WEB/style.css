@@ -1,0 +1,17 @@
+#titulo-principal {
+    color:blue;
+    font-size:2em;
+    text-align: center;
+}
+
+.texto-destaque{
+    color: green;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#caixa.borda{
+    border: 2px solid red;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
