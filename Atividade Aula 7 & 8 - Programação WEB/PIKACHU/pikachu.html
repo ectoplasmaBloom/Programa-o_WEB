@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<p id="info"></p>
+<script>
+    let vazio = {};
+    let ponto = {
+    x: 0, y:0
+    }
+        let pikachu = {
+    nome: "Pikachu",
+    especie: "Pikachu",
+    nivel: 1,
+};
+let livro = {
+    titulo: "JavaScript",
+    'sub-titulo': "O Guia Definitivo",
+    autor: {
+        nome: "David",
+        sobrenome: "Flanagan"
+    }
+};
+
+    let texto = "O pokemon é o **" +pikachu.nome+ "** (Nível "+pikachu.nivel+")";
+    texto += "E o livro é **" + livro.titulo + "**(Autor " + livro.autor.nome + ").";
+    document.getElementById("info").innerHTML = texto;
+    </script>
+    </body>
+</html>
