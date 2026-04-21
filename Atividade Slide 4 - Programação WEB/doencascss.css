@@ -1,0 +1,22 @@
+.mordekailargaocelular {
+    text-align:justify;
+    font-family: sans-serif;
+    color: rgb(68, 1, 14);
+    font-size: 10em;
+
+}
+
+
+img{
+    float: left;
+    width: 2em;
+    position: relative;
+    left: 1%;
+    bottom: 1%;
+    padding: 1px;
+}
+
+
+body {
+    background-color: rgb(233, 233, 233);
+}
