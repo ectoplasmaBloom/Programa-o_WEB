@@ -1,0 +1,13 @@
+.app {
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: crimson;
+}
+
+#areaLista {
+    padding: 2px;
+    margin: 10px;
+    border-radius: 1%;
+    background-color: khaki;
+}
